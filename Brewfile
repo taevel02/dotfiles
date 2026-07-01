@@ -1,7 +1,3 @@
-tap "buddy-proiectio/yeomil-mono", "https://github.com/buddy-proiectio/yeomil-mono.git"
-tap "charmbracelet/tap"
-tap "steipete/tap"
-
 # Brew Formulae
 brew "bat"
 brew "cmake"
