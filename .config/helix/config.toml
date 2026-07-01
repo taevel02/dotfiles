@@ -1,0 +1,16 @@
+theme = "base16_transparent"
+
+[editor]
+cursor-shape = { normal = "block", insert = "bar", select = "underline" }
+idle-timeout = 50
+
+[editor.soft-wrap]
+enable = true
+
+[keys.normal]
+"A-b" = "move_prev_word_start"
+"A-f" = "move_next_word_start"
+
+[keys.insert]
+"A-b" = "move_prev_word_start"
+"A-f" = "move_next_word_start"

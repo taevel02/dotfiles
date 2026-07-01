@@ -1,0 +1,6 @@
+.DS_Store
+*.backup
+*.swp
+*~
+.venv/
+node_modules/

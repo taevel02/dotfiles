@@ -1,0 +1,7 @@
+[language-server.pyrefly]
+command = "pyrefly"
+args = ["lsp"]
+
+[[language]]
+name = "python"
+language-servers = [ "pyrefly", "ruff" ]
