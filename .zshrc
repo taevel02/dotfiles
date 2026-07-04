@@ -1,7 +1,3 @@
-export EDITOR="hx"
-export VISUAL="hx"
-export GIT_EDITOR="hx"
-
 eval "$(starship init zsh)"
 eval "$(fnm env --use-on-cd --shell zsh)"
 
