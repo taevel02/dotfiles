@@ -6,3 +6,6 @@ cursor-style = bar
 
 macos-titlebar-style = tabs
 macos-titlebar-proxy-icon = hidden
+
+
+shell-integration-features = ssh-terminfo, ssh-env
