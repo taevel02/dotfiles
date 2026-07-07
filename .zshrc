@@ -32,3 +32,6 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export PATH="$HOME/.antigravity-ide/antigravity-ide/bin:$PATH"
 export RIPGREP_CONFIG_PATH=~/.ripgreprc
+
+# opencode
+export PATH=/Users/taehoonkwon/.opencode/bin:$PATH
