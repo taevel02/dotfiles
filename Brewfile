@@ -48,6 +48,8 @@ cask "tableplus"
 cask "thaw"
 # Open-source BitTorrent client
 cask "transmission"
+# Multiplayer code editor
+cask "zed"
 npm "pnpm"
 npm "typescript-language-server"
 npm "typescript"
