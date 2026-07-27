@@ -1,10 +1,8 @@
 # dotfiles
 
-Personal macOS configurations and development environment bootstrap.
+Personal macOS configurations and bootstrap setup.
 
-## Installation
-
-Clone the repository and run the installation script:
+## Installation & Setup
 
 ```bash
 git clone https://github.com/taevel02/dotfiles.git ~/dotfiles
@@ -12,14 +10,24 @@ cd ~/dotfiles
 ./install.sh
 ```
 
+### Options
+
+```bash
+./install.sh --dry-run   # Simulate installation without making changes
+./install.sh --force     # Force re-linking all symlinks
+./install.sh --skip-brew # Skip Homebrew package installation
+```
+
 ## Structure
 
-*   `install.sh`: Automated bootstrap install script.
-*   `Brewfile`: Homebrew packages, applications, and fonts.
-*   `.zshrc`: Zsh shell configurations.
-*   `.tmux.conf`: Tmux multiplexer settings.
-*   `.dev.sh`: Personal utility scripts.
-*   `.config/`: Application settings:
-    *   `ghostty/`: Ghostty terminal emulator configuration.
-    *   `starship.toml`: Starship prompt configuration.
-    *   `helix/`: Helix editor configuration.
+* `install.sh`: Automated bootstrap install script
+* `Brewfile`: Homebrew CLI packages, GUI applications, and fonts
+* `.zshrc`: Zsh shell configurations and aliases
+* `.opencommit`: OpenCommit AI commit message generator configuration
+* `.config/`:
+  * `ghostty/`: Ghostty terminal emulator configuration
+  * `helix/`: Helix editor & LSP configuration
+  * `starship.toml`: Starship shell prompt configuration
+  * `yazi/`: Yazi terminal file manager configuration
+
+
