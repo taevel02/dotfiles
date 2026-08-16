@@ -18,6 +18,10 @@ brew "pyrefly"
 brew "ruff"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Easiest, most secure way to use WireGuard and 2FA
+brew "tailscale"
+# Terminal multiplexer
+brew "tmux"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # Blazing fast terminal file manager written in Rust, based on async I/O
